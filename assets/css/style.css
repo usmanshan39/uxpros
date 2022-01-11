@@ -1,0 +1,272 @@
+body {
+  background-color: #161C29;
+}
+
+.blue-color {
+  color: #008CFF;
+}
+
+.blue-btn {
+  margin-top: 3px;
+
+  background-color: #008CFF;
+  box-shadow: 0px 0px 54px rgba(0, 140, 255, 0.28);
+  border-radius: 25.6759px;
+  color: #FAFCFD;
+  padding: 8px 35px;
+  font-size: 20px;
+}
+
+.border-btn {
+  margin-top: 3px;
+  color: #FAFCFD;
+  border: 1px solid #FAFCFD;
+  border-radius: 25.6759px;
+  color: #FAFCFD;
+  padding: 8px 35px;
+  font-size: 20px;
+  -webkit-border-radius: 25.6759px;
+  -moz-border-radius: 25.6759px;
+  -ms-border-radius: 25.6759px;
+  -o-border-radius: 25.6759px;
+}
+
+.blue-btn:hover {
+  color: #FAFCFD;
+}
+
+.border-btn:hover {
+  color: #FAFCFD;
+}
+
+.side-navbar {
+  width: 238px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #1C2230;
+  transition: 0.5s;
+}
+
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+  margin-left: 238px;
+}
+
+/* topbar styling start here */
+
+
+
+/* topbar styling end here */
+
+
+/******************************************************************** sidebar styling start here ************************************************************ */
+.nav-link {
+  padding-bottom: 30px;
+}
+
+.nav-link a {
+  color: #FAFCFD;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24.51px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.side-icon-block a {
+  color: #B6BBC6;
+}
+
+.side-icon-block {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #B6BBC6;
+  margin: 0px 3px;
+  font-size: 16px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.sb-text {
+  color: #60646E;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24.51px;
+  font-size: 10px;
+}
+
+/************************************************************ * sidebar styling end here ************************************************************ */
+
+.hide-toggl-btn a {
+  background-color: #191E2B;
+  color: #B6BBC6;
+  font-size: 21px;
+}
+
+.hide-toggl-btn a:hover {
+  color: #B6BBC6;
+}
+
+/* ****************************************************** Home Page Section one start ****************************************************** */
+
+.bold-h1 {
+  color: #FAFCFD;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 113%;
+}
+.bold-h2 {
+  color: #FAFCFD;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 113%;
+}
+.home-p1 {
+  color: #FAFCFD;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: normal;
+}
+
+.h-sec1.item-one-bg{
+  background-image: url("../images/h-sec-bg.png");
+  background-size: contain;
+}
+/* ****************************************************** Home Page Section one end ****************************************************** */
+
+
+/* ****************************************************** Home Page Section two start ****************************************************** */
+
+
+.h-sec2 .black-sec{
+  position: relative;
+  background-color: #090B09;
+  padding: 50px 0px;
+  margin: 30px 0px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.h-sec2 .black-sec img{
+  max-width: 350px;
+}
+.h-sec2 .black-sec .video-play{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 90px;
+  height: 90px;
+}
+/* ****************************************************** Home Page Section two end ****************************************************** */
+
+
+/* ****************************************************** Home Page Section three start ****************************************************** */
+
+.h-sec3 .g-card{
+  position: relative;
+  height: 480px;
+  background: rgba(31, 28, 21, 0.61);
+  backdrop-filter: blur(86px);
+  border-radius: 28px;
+  padding: 30px;
+  color: #FAFCFD
+  ;
+}
+.h-sec3 .rotate-text{
+  font-size: 38px;
+  font-weight: 500;
+  color: #FAFCFD;
+  
+}
+.h-sec3 .rotate-text-div{
+  position: absolute; 
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.h-sec3 .rotate1{
+  bottom: 125px;
+  left: -70px;
+}
+.h-sec3 .rotate2{
+  bottom: 60px;
+  left: -10px;
+}
+.h-sec3  .rotate3{
+  bottom: 80px;
+  left: -30px;
+}
+.h-sec3 .expand-img{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 22px;
+  height: 22px;
+}
+
+/* ****************************************************** Home Page Section three end ****************************************************** */
+
+
+@media (max-width:575px) {
+  .my-container {
+    margin-left: 0;
+  }
+
+  .hide-toggl-btn {
+    display: none !important;
+  }
+
+  .hide-topbar {
+    display: block !important;
+  }
+
+  .hide-sidebar {
+    display: none !important;
+  }
+}
+
+@media (min-width:576px) {
+
+  /* .my-container{
+    margin-left: 0;
+  } */
+  .hide-topbar {
+    display: none !important;
+  }
+
+  .hide-sidebar {
+    display: block !important;
+  }
+}
+
+@media(max-width:768px){
+  .top-line-div{
+    position: relative;
+    padding-top: 50px;
+    height: 200px;
+  }
+  .top-line-div img{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    width: 80%;
+  }
+}
