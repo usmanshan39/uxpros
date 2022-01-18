@@ -359,6 +359,7 @@ body {
   transition: .5s ease;
   background-image: linear-gradient(to right, #221E2E , #142137);
   height: 450px;
+  overflow: scroll;
   padding: 20px;
   border-radius: 30px;
   -webkit-border-radius: 30px;
@@ -430,6 +431,65 @@ body {
     width: 130px;
     height: 130px;
   }
+  .sales-card-complete .text .c-h2{
+    font-size: 15px;
+  }
+.sales-card-complete .text .s-c-b{
+  font-size: 15px;
+  line-height: 18px;
+}
+.cards-section .sales-card .c-h2{
+  font-size: 15px;
+}
+.cards-section .sales-card .s-c-b{
+  font-size: 15px;
+  line-height: 18px;
+}
+.cards-section .sales-card{
+  height: 280px;
+  border-radius: 20px;
+  padding:10px
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.sales-card-complete .overlay{
+  height: 280px;
+  border-radius: 20px;
+  padding:10px
+}
+}
+
+@media (max-width:400px){
+  .cards-section .sales-card .s-c-img{
+    width: 80px;
+    height: 80px;
+  }
+  .sales-card-complete .text .c-h2{
+    font-size: 12px;
+  }
+.sales-card-complete .text .s-c-b{
+  font-size: 12px;
+  line-height: 18px;
+}
+.cards-section .sales-card .c-h2{
+  font-size: 15px;
+}
+.cards-section .sales-card .s-c-b{
+  font-size: 12px;
+  line-height: 18px;
+}
+.cards-section .sales-card{
+  height: 280px;
+  border-radius: 20px;
+  padding:10px
+}
+.sales-card-complete .overlay{
+  height: 280px;
+  border-radius: 20px;
+  padding:10px
+}
 }
 /* ****************************************************** sales page end ****************************************************** */
 
