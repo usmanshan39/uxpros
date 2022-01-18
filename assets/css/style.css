@@ -69,6 +69,9 @@ body {
   border: 0 !important;
   padding-bottom: 15px;
 }
+.nav-margin-top{
+  margin-top: 100px !important;
+}
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -434,6 +437,40 @@ scrollbar-width: none;  /* Firefox */
   color: #8D9DAD;
   margin-top: 15px;
   line-height: 30px;
+}
+@media (min-width:576px) AND (max-width:830px){
+  .cards-section .sales-card .s-c-img{
+    width: 140px;
+    height: 140px;
+  }
+  .sales-card-complete .text .c-h2{
+    font-size: 15px;
+  }
+.sales-card-complete .text .s-c-b{
+  font-size: 15px;
+  line-height: 18px;
+}
+.cards-section .sales-card .c-h2{
+  font-size: 15px;
+}
+.cards-section .sales-card .s-c-b{
+  font-size: 15px;
+  line-height: 18px;
+}
+.cards-section .sales-card{
+  height: 350px;
+  border-radius: 20px;
+  padding:10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.sales-card-complete .overlay{
+  height: 350px;
+  border-radius: 20px;
+  padding:10px
+}
 }
 @media (max-width:575px){
   .cards-section .sales-card .s-c-img{
