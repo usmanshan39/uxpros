@@ -368,7 +368,16 @@ body {
   -o-border-radius: 30px;
   cursor: pointer;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+.sales-card-complete .overlay::-webkit-scrollbar {
+  display: none;
+}
 
+/* Hide scrollbar for IE, Edge and Firefox */
+.sales-card-complete .overlay {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
 .sales-card-complete:hover .overlay {
   opacity: 1;
 }
@@ -448,7 +457,7 @@ body {
 .cards-section .sales-card{
   height: 280px;
   border-radius: 20px;
-  padding:10px
+  padding:10px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
