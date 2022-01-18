@@ -8,7 +8,6 @@ body {
 
 .blue-btn {
   margin-top: 3px;
-
   background-color: #008CFF;
   box-shadow: 0px 0px 54px rgba(0, 140, 255, 0.28);
   border-radius: 25.6759px;
@@ -288,6 +287,9 @@ body {
 /* ****************************************************** Home Page Section three end ****************************************************** */
 
 
+/* ****************************************************** Home Page Section four start ****************************************************** */
+
+
 .h-sec4 .gradint-card{
   background: rgba(31, 28, 21, 0.61);
   backdrop-filter: blur(86px);
@@ -296,6 +298,47 @@ body {
   color: #FAFCFD;
 }
 
+
+/* ****************************************************** Home Page Section four end ****************************************************** */
+
+/* ****************************************************** Home Page Section five start ****************************************************** */
+
+.rhythm-card{
+  background-image: linear-gradient(to right, #0F2246, #161C29 );
+  padding: 30px;
+  color: #FAFCFD;
+  /* height: 430px; */
+  border-radius: 28px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px;
+}
+.yellow-star{
+  color: yellow;
+}
+.h-sec5 .gradint-card{
+  background-image: linear-gradient(to right, #141f33, #1c1d28 );
+  padding: 30px;
+  color: #FAFCFD;
+  height: 430px;
+  border-radius: 28px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px
+}
+.h-sec5 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background: blue;
+}
+.owl-item.active.center {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+/* ****************************************************** Home Page Section five end ****************************************************** */
 
 
 
