@@ -348,7 +348,12 @@ body {
 
 
 /* ****************************************************** sales page start ****************************************************** */
-
+.sales-margin-top{
+  margin-top: 60px;
+}
+.sales-margin-buttom{
+  margin-bottom: 100px;
+}
 .sales-card-complete{
   position: relative;
 }
